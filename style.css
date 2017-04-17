@@ -1,0 +1,87 @@
+body{
+  background-color: black;
+  color: white;
+
+}
+
+h2{
+	font: Tahoma, Century Gothic, sans-serif;
+}
+#title{
+	text-align: center;
+	font: Tahoma, Century Gothic, sans-serif;
+	color: white;
+}
+
+#colorTable{
+	display: table;
+	border-spacing: 1px;
+	background-color: white;
+	border: 2px white;
+}
+
+#table{
+	
+	display: table;
+	border-spacing: 1px;
+	background-color: black;
+	border: 2px solid black;
+}
+
+.hitMe {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
+
+.hitMe:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.paletteRow{
+	display: table-row;
+	border: 2px #c6bcb6;
+}
+.color{
+	display: table-cell;
+	width: 20px;
+	height: 20px;
+}
+#black{
+	background-color: black;
+}
+#purple{
+	background-color: #622569;
+}
+#blue{
+	background-color: #034f84;
+}
+#green{
+	background-color: #96ceb4;
+}
+#yellow{
+	background-color: #ffcc5c;
+}
+#orange{
+	background-color: #f2ae72;
+}
+#red{
+	background-color: #ff3300;
+}
+#pink{
+	background-color: #e06377;
+}
+
+.row{
+	
+	display: table-row;
+}
+
+.pixel{
+	
+	display: table-cell;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+}
